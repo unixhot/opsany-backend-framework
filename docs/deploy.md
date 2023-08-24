@@ -21,7 +21,7 @@
 2. 获取后端开发框架代码
 
 ```
-git clone https://gitee.com/opsany/backend-framework.git
+git clone https://gitee.com/unixhot/opsany-backend-framework.git
 ```
 
 3. 本地Python虚拟环境搭建
@@ -48,7 +48,7 @@ pip3 install -r requirements.txt
 ```
 # Step 1: 创建demo数据库并授权
 create database demo DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-grant all on demo.* to demo@'%' identified by "OpsAny@2023";
+grant all on demo.* to demo@'%' identified by "OpsAny@2020";
 
 # Step 2: 授权让OpsAny平台可以自动进行数据库管理操作
 grant all on demo.* to opsany@'%';
@@ -142,7 +142,7 @@ http://127.0.0.1:8888
 ```
 # Step 1: 创建demo数据库并授权
 create database example DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-grant all on example.* to example@'%' identified by "OpsAny@2023";
+grant all on example.* to example@'%' identified by "OpsAny@2020";
 
 # Step 2: 授权让OpsAny平台可以自动进行数据库管理操作
 grant all on example.* to opsany@'%';
