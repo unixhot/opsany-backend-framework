@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+# 工程预装模块
+# 需要额外的python包，可直接在文件后面添加
+# 请确保指定的包和版本号，可通过pip安装
+# 需同时在同级目录下的pp.yml文件下添加包名和版本号
+
+# blueapps requirement
+Django==2.2.6
+mysqlclient==1.4.4
+MarkupSafe==1.1
+Mako==1.0.6
+httplib2==0.9.1
+urllib3==1.26.2
+requests==2.25.0
+urllib3==1.26.2
+celery==3.1.25
+django-celery==3.2.1
+python-json-logger==0.1.7
+whitenoise==3.3.0
+six==1.11.0
+mongoengine==0.23.1
+arrow==0.12.1
+
+
+#v2 requirement
+django-cors-headers==3.2.1

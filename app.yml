@@ -1,0 +1,47 @@
+app_code: framework
+app_name: 标准后端开发框架
+secret_key: 48be3a8e-ca5f-402e-8700-3a160f089877
+author: OpsAny
+category: OpsAny
+!!python/unicode 'date': '2021-02-01 10:10:10'
+desktop:
+  height: 720
+  is_max: true
+  width: 1300
+introduction: 标准后端开发框架
+is_use_celery: False
+!!python/unicode 'language': python
+libraries:
+- name: uwsgi
+  version: 2.0.19.1
+- name: Django
+  version: 2.2.6
+- name: mysqlclient
+  version: 1.4.4
+- name: MarkupSafe
+  version: 1.1
+- name: Mako
+  version: 1.0.6
+- name: httplib2
+  version: 0.9.1
+- name: requests
+  version: 2.25.0
+- name: urllib3
+  version: 1.26.2
+- name: celery
+  version: 3.1.25
+- name: django-celery
+  version: 3.2.1
+- name: python-json-logger
+  version: 0.1.7
+- name: whitenoise
+  version: 3.3.0
+- name: six
+  version: 1.11.0
+- name: django-cors-headers
+  version: 3.2.1
+- name: mongoengine
+  version: 0.23.1
+- name: arrow
+  version: 0.12.1
+version: 1.0.0
